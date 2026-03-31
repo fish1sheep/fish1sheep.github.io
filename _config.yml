@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 title: RobotSheep # the main title
 
-tagline: Robotics # it will display as the subtitle
+tagline: Robotics - NEU # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
