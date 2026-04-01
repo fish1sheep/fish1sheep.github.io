@@ -1,39 +1,42 @@
-# Chirpy Starter
+# 🤖 机器人技术博客 (My Robotics Blog)
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+[][gem] 
+[][mit]
 
-A minimal, ready-to-use template for creating a blog with the [**Chirpy**][chirpy] Jekyll theme. Get up and running in minutes with all critical files pre-configured.
+这是一个基于 [GitHub Pages](https://pages.github.com/) 搭建的个人博客，主要用于记录和分享\*\*机器人（Robotics）\*\*相关的技术文章、开发日志和项目心得。
 
-## Why This Starter Exists
+本博客使用了 [**Chirpy Starter**][starter] 模板进行构建。
 
-When installing Chirpy through [RubyGems.org][gem], Jekyll can only read a subset of theme files (`_data`, `_layouts`, `_includes`, `_sass`, `assets`) and limited `_config.yml` options from the gem. As a result, users cannot enjoy the full out-of-the-box experience that Chirpy offers.
+-----
 
-To unlock all features, the following files must be present in your Jekyll site:
+## 📌 为什么基于 Starter 模板构建？
+
+如果直接通过 RubyGems.org 安装 Chirpy 主题，Jekyll 只能读取一小部分主题文件（如 `_data`、`_layouts` 等），这会导致很多开箱即用的高级功能无法正常显示。
+
+为了完整解锁 Chirpy 的所有特性，本仓库保留了 Starter 模板中预配置的关键文件：
 
 ```shell
 .
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+├── _config.yml   # 博客的核心配置文件
+├── _plugins      # 插件目录
+├── _tabs         # 侧边栏标签（如关于、归档等）
+└── index.html    # 博客首页
 ```
 
-This starter bundles those files from the latest **Chirpy** release along with a [CD][CD] workflow, so you can start writing immediately.
+通过这个模板，我们可以绕过繁琐的配置，直接专注在机器人内容的创作上！
 
-## Usage
+-----
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+## 📖 参考与文档
 
-## Contributing
+  * **博客主题文档**：关于如何写文章、插入图片或公式，请参考 [Chirpy Wiki](https://github.com/cotes2020/jekyll-theme-chirpy/wiki)。
+  * **持续集成**：仓库已内置 [CD][CD] 工作流，推送到 `master`/`main` 分支后会自动构建并部署到 GitHub Pages。
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+## 📄 开源协议
 
-## License
+本仓库基于 [MIT][mit] 协议开源。
 
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+[gem]: https://www.google.com/search?q=%5Bhttps://rubygems.org/gems/jekyll-theme-chirpy%5D\(https://rubygems.org/gems/jekyll-theme-chirpy\)
+[mit]: https://www.google.com/search?q=%5Bhttps://github.com/cotes2020/chirpy-starter/blob/master/LICENSE%5D\(https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE\)
+[starter]: https://www.google.com/search?q=%5Bhttps://github.com/cotes2020/chirpy-starter%5D\(https://github.com/cotes2020/chirpy-starter\)
+[cd]: https://www.google.com/search?q=%5Bhttps://en.wikipedia.org/wiki/Continuous_deployment%5D\(https://en.wikipedia.org/wiki/Continuous_deployment\)
