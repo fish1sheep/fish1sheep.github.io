@@ -3,7 +3,7 @@
 [][gem] 
 [][mit]
 
-这是一个基于 [GitHub Pages](https://pages.github.com/) 搭建的个人博客，主要用于记录和分享**机器人（Robotics）**相关的技术文章、开发日志和项目心得。
+这是一个基于 [GitHub Pages](https://pages.github.com/) 搭建的个人博客，主要用于记录和分享 **机器人（Robotics）** 相关的技术文章、开发日志和项目心得。
 
 本博客使用了 [**Chirpy Starter**][starter] 模板进行构建。
 
