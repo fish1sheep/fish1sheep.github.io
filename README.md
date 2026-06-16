@@ -1,4 +1,4 @@
-# 🤖 机器人技术博客 (My Robotics Blog)
+# 🤖 技术博客 (My Blog)
 
 [][gem] 
 [][mit]
